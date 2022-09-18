@@ -27,7 +27,7 @@ The code used on this page is HTML, CSS and Javascript.  There is an index.html 
 
 The following image demonstrates the web application's appearance and functionality:
 
-![Daily Calendar](./assets/daily-calendar.png)
+![Daily Calendar](../Daily-Calendar/Assets/daily-calendar.png)
 
 ## Credits
 
