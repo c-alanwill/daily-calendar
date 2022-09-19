@@ -22,6 +22,7 @@
   </head>
 
   <body>
+    <!-- Header -->
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
@@ -31,14 +32,13 @@
       Appointment Added to <code>localStorage</code>
     </section> -->
     <div class="container">
-      <!-- Timeblocks go here -->
+      <!-- Timeblocks -->
       <div id="hour-9" class="row time-block">
         <div class="col-md-1 hour">9AM</div>
         <textarea class="col-md-10 description"></textarea>
         <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
       </div>
       <div id="hour-10" class="row time-block">
-         <!--ON CODE IT DOESN'T SHOW PAST LIKE IN OTHERS THAT SAY "row time-block past.  BUT IT CHANGES COLORS SO PAST IS GREY, HOUR WE ARE IN IS RED AND FUTURE IS GREEN."-->
         <div class="col-md-1 hour">10AM</div>
         <textarea class="col-md-10 description"></textarea>
         <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
@@ -78,8 +78,8 @@
         <textarea class="col-md-10 description"></textarea>
         <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
     </div>
+    <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="script.js"></script>
   </body>
